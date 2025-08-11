@@ -16,7 +16,7 @@ window.addEventListener("scroll",()=>{
                 }else{
                     index.classList.remove("active")
                 }
-                showSection(index)
+                
 
             })
             localStorage.setItem("link",link)
