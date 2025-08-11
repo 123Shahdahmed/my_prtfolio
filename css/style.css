@@ -566,6 +566,7 @@ ul{
 }
 .contact-info-item h4{
     font-size: 23px;
+    color: var(--text-black-700);
 }
 .contact-info-item p{
     font-size: 16px;
