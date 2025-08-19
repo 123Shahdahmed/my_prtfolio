@@ -32,15 +32,17 @@
       <!-- =========aside start=========== -->
       <div class="aside">
         <!-- logo start -->
-        <div class="logo">
-          <a href="#"><span>A</span>tlas</a>
+        <div class="logo" style="margin-bottom: 2rem;">
+          <a href="#"><span>S</span>hahd</a>
         </div>
         <!-- logo end -->
-        <div class="nav-toggler" onclick="addToggle()">
+        <div class="nav-toggler" onclick="addToggle()" >
           <span></span>
         </div>
-        <!-- nav start -->
-        <ul class="nav">
+        <div>
+           <!-- nav start -->
+         
+        <ul class="nav" >
           <li>
             <a href="#home" class="activeMe" onclick="setActive('home')" title="home"><i class="fa fa-home"></i>Home</a>
           </li>
@@ -57,7 +59,16 @@
             <a href="#contact" class="activeMe"  onclick="setActive('contact')" title="contact"><i class="fa fa-comments"></i>Contact</a>
           </li>
         </ul>
+
         <!-- nav end -->
+         <div class="contact-icon">
+              <div class="icon"><a href="https://github.com/123Shahdahmed"><i class="fa-brands fa-github"></i></a></div>
+              <div class="icon "><a href="https://www.linkedin.com/in/shahd-soliman-837a922b0/"><i class="fa-brands fa-linkedin"></i></a></div>
+              <div class="icon"><a href=" https://www.instagram.com/shahd368ahmed?igsh=YzljYTk1ODg3Z"><i class="fa-brands fa-square-instagram"></i></a></div>
+              <div class="icon"><a href="https://www.facebook.com/omarahamed.ahamed.79?locale=ar_AR"><i class="fa-brands fa-facebook"></i></a></div>
+            </div>
+        </div>
+       
       </div>
       <!-- =========aside end=========== -->
       <!-- ========home start=========== -->
@@ -76,12 +87,12 @@
               <div class="btn Hire-me"><a href="#">Hire Me</a></div>
               
             </div>
-            <div class="container-img">
+            <!-- <div class="container-img">
               <img
                 src="images/WhatsApp Image 2024-11-16 at 19.38.08_efa8709d.jpg"
                 alt=""
               />
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -366,8 +377,11 @@
                 <!-- prtfolio item start -->
                  <div class="prtflio-item" style="z-index: 10;">
                     <div class="prtfolio-item-inner">
+                      <div class="prtfolio-info">
+                          My Prtfolio
+                        </div>
                         <div class="prtofolio-img">
-                            <img src="images/portfolio2.jpg" alt="">
+                            <img src="images/Screenshot 2025-08-19 230928.png" alt="">
                         </div>
                     </div>
                  </div>
@@ -375,8 +389,11 @@
                  <!-- prtfolio item start -->
                  <div class="prtflio-item">
                     <div class="prtfolio-item-inner">
+                      <div class="prtfolio-info">
+                          Coffee Shop
+                        </div>
                         <div class="prtofolio-img">
-                            <img src="images/portfolio5.jpg" alt="">
+                            <img src="images/Screenshot 2025-08-19 231048.png" alt="">
                         </div>
                     </div>
                  </div>
@@ -384,8 +401,11 @@
                  <!-- prtfolio item start -->
                  <div class="prtflio-item">
                     <div class="prtfolio-item-inner">
+                      <div class="prtfolio-info">
+                          Crud Project
+                        </div>
                         <div class="prtofolio-img">
-                            <img src="images/portfolio4.jpg" alt="">
+                            <img src="images/Screenshot 2025-08-19 231248.png" alt="">
                         </div>
                     </div>
                  </div>
@@ -393,8 +413,11 @@
                  <!-- prtfolio item start -->
                  <div class="prtflio-item">
                     <div class="prtfolio-item-inner">
+                        <div class="prtfolio-info">
+                          Prayer Times App
+                        </div>
                         <div class="prtofolio-img">
-                            <img src="images/portfolio3.jpg" alt="">
+                            <img src="images/Screenshot 2025-08-19 231743.png" alt="">
                         </div>
                     </div>
                  </div>
@@ -402,8 +425,11 @@
                  <!-- prtfolio item start -->
                  <div class="prtflio-item">
                     <div class="prtfolio-item-inner">
+                      <div class="prtfolio-info">
+                          Social Media App
+                        </div>
                         <div class="prtofolio-img">
-                            <img src="images/portfolio2.jpg" alt="">
+                            <img src="images/Screenshot 2025-08-19 231519.png" alt="">
                         </div>
                     </div>
                  </div>
@@ -411,8 +437,11 @@
                  <!-- prtfolio item start -->
                  <div class="prtflio-item">
                     <div class="prtfolio-item-inner">
+                      <div class="prtfolio-info">
+                          To-Do-List App
+                        </div>
                         <div class="prtofolio-img">
-                            <img src="images/portfolio6.jpg" alt="">
+                            <img src="images/Screenshot 2025-08-19 232011.png" alt="">
                         </div>
                     </div>
                  </div>
@@ -507,6 +536,37 @@
             </div>
         </section>
        <!-- ========contact end========= -->
+        <!-- =======footer start======== -->
+         <!-- <section class="section footer">
+          <div class="container">
+            <div class="contact-icon">
+              <i class="fa-brands fa-github"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div class="links">
+              <ul class="nav">
+          <li>
+            <a href="#home" class="activeMe" onclick="setActive('home')" title="home"><i class="fa fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="#about" class="activeMe"  onclick="setActive('about')" title="about"><i class="fa fa-user"></i>About</a>
+          </li>
+          <li>
+            <a href="#services" class="activeMe"  onclick="setActive('services')" title="services"><i class="fa fa-list"></i>Services</a>
+          </li>
+          <li>
+            <a href="#prtfolio" class="activeMe"  onclick="setActive('prtfolio')" title="prtfolio"><i class="fa fa-briefcase"></i>Portofolio</a>
+          </li>
+          <li>
+            <a href="#contact" class="activeMe"  onclick="setActive('contact')" title="contact"><i class="fa fa-comments"></i>Contact</a>
+          </li>
+        </ul>
+            </div>
+          </div>
+         </section> -->
+        <!-- =======footer end======== -->
     </div>
     <!-- ======main container end======== -->
      <!-- ===== style switsher start =======-->
@@ -526,7 +586,6 @@
         <span class="color-5" onclick="setActiveStyle('color-5')"></span>
       </div>
       </div>
-      
       
      <!-- =====style switsher end ==========-->
       <!-- js fils -->
