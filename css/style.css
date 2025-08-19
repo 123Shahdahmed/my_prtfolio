@@ -442,9 +442,13 @@ ul{
     position: relative;
     margin: 2rem 0;
 }
+.University{
+    color: var(--skin-color);
+}
 .timeline .timeline-item{
     padding: 20px 30px;
     position: relative;
+    color: var(--text-black-700);
 }
 .timeline .timeline-item::before{
     content: '';
